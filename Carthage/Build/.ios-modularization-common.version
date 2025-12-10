@@ -1,0 +1,23 @@
+{
+  "Mac" : [
+    {
+      "hash" : "11d9cab3a3cc2a2565bcb35a94af0ac825e1b994e32847fd2be8522f5e288673",
+      "name" : "Pods_Common",
+      "linking" : "static"
+    }
+  ],
+  "tvOS" : [
+
+  ],
+  "iOS" : [
+    {
+      "hash" : "185a4055c72a820395993284bd34b154332d216a039823164e9551ee79571e20",
+      "name" : "Pods_Common",
+      "linking" : "static"
+    }
+  ],
+  "commitish" : "4d09ac58b82b8595c1a5f5af1a8cc8faa8485f79",
+  "watchOS" : [
+
+  ]
+}

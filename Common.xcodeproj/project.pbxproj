@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A57E2FD7AFDF915EDDDDFA0 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04F27AC7D7D29C83BAD5A59 /* Pods_Common.framework */; };
+		AE07B592E0C226BA52638919 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44998C2D80FD8CD3CF5CEEF /* Pods_Common.framework */; };
 		C17625B82EE95FDF00DB9267 /* Sunnyspells-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C17625B72EE95FD300DB9267 /* Sunnyspells-Regular.otf */; };
 		C17625C32EE9656800DB9267 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17625C22EE9656100DB9267 /* String+Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		007036EF524E8F82B1B5EAE3 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "../../Common/Pods/Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
+		5A92F8AE083A48BF59D8DA3B /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.release.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
+		A3182E2DF194790CA045CEC7 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 		C17625B72EE95FD300DB9267 /* Sunnyspells-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sunnyspells-Regular.otf"; sourceTree = "<group>"; };
 		C17625C22EE9656100DB9267 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		C1A5F78F2EE951EE00E60159 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE21062CB82B9BB5A39D109D /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.release.xcconfig"; path = "../../Common/Pods/Target Support Files/Pods-Common/Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
-		F04F27AC7D7D29C83BAD5A59 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44998C2D80FD8CD3CF5CEEF /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -47,27 +47,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A57E2FD7AFDF915EDDDDFA0 /* Pods_Common.framework in Frameworks */,
+				AE07B592E0C226BA52638919 /* Pods_Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		87F9AD388984E69002664625 /* Pods */ = {
+		13C7980CB4BECF3CD2F9029E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				007036EF524E8F82B1B5EAE3 /* Pods-Common.debug.xcconfig */,
-				DE21062CB82B9BB5A39D109D /* Pods-Common.release.xcconfig */,
+				A3182E2DF194790CA045CEC7 /* Pods-Common.debug.xcconfig */,
+				5A92F8AE083A48BF59D8DA3B /* Pods-Common.release.xcconfig */,
 			);
 			name = Pods;
-			path = ../App/Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		B83A8809CE47878947B830AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F04F27AC7D7D29C83BAD5A59 /* Pods_Common.framework */,
+				D44998C2D80FD8CD3CF5CEEF /* Pods_Common.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,8 +87,8 @@
 				C17625B62EE95FC900DB9267 /* Fonts */,
 				C1A5F7912EE951EE00E60159 /* Common */,
 				C1A5F7902EE951EE00E60159 /* Products */,
-				87F9AD388984E69002664625 /* Pods */,
 				B83A8809CE47878947B830AD /* Frameworks */,
+				13C7980CB4BECF3CD2F9029E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -346,7 +346,7 @@
 		};
 		C1A5F7992EE951EE00E60159 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 007036EF524E8F82B1B5EAE3 /* Pods-Common.debug.xcconfig */;
+			baseConfigurationReference = A3182E2DF194790CA045CEC7 /* Pods-Common.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,7 +385,7 @@
 		};
 		C1A5F79A2EE951EE00E60159 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE21062CB82B9BB5A39D109D /* Pods-Common.release.xcconfig */;
+			baseConfigurationReference = 5A92F8AE083A48BF59D8DA3B /* Pods-Common.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;

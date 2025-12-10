@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jakartamacbook/Development/where/Learn/ios/dcdg-modular/Common/Carthage/Build/Mac/Common.framework/Common'
+relocations:     []
+...

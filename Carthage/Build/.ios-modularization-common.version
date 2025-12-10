@@ -1,11 +1,28 @@
 {
+  "commitish" : "1.2.0",
   "iOS" : [
     {
-      "hash" : "94251f66d5e86ff89eb7576fe35e3177fe270bc2855a17b30ee21e685e77567c",
-      "linking" : "dynamic",
+      "name" : "Common",
+      "identifier" : "ios-arm64",
       "swiftToolchainVersion" : "6.2.1 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)",
-      "name" : "Common"
+      "container" : "Common.xcframework",
+      "hash" : "084267e7eb3949ab0f2e57462ac10a7af2ebcec11ff1510e671bc5a0ffa0e54c"
+    },
+    {
+      "name" : "Common",
+      "identifier" : "ios-x86_64-simulator",
+      "swiftToolchainVersion" : "6.2.1 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)",
+      "container" : "Common.xcframework",
+      "hash" : "1fc43f456919840c735b447171440f6c548322aa34ae86ca51b999fe12dce501"
     }
   ],
-  "commitish" : "1.0.0"
+  "Mac" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "watchOS" : [
+
+  ]
 }

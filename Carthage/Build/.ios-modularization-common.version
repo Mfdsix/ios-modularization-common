@@ -1,23 +1,11 @@
 {
-  "Mac" : [
-    {
-      "hash" : "11d9cab3a3cc2a2565bcb35a94af0ac825e1b994e32847fd2be8522f5e288673",
-      "name" : "Pods_Common",
-      "linking" : "static"
-    }
-  ],
-  "tvOS" : [
-
-  ],
   "iOS" : [
     {
-      "hash" : "185a4055c72a820395993284bd34b154332d216a039823164e9551ee79571e20",
-      "name" : "Pods_Common",
-      "linking" : "static"
+      "hash" : "94251f66d5e86ff89eb7576fe35e3177fe270bc2855a17b30ee21e685e77567c",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "6.2.1 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)",
+      "name" : "Common"
     }
   ],
-  "commitish" : "4d09ac58b82b8595c1a5f5af1a8cc8faa8485f79",
-  "watchOS" : [
-
-  ]
+  "commitish" : "1.0.0"
 }
